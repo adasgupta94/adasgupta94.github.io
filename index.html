@@ -2,18 +2,48 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=auto">
 		<link rel="icon" type="image/jpg" href="./Small_Use_Shield_CardOnWhite.jpg">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Agnimitra Dasgupta</title>
         <style type="text/css">
             body {
-                margin: 40px auto;
-                max-width: 650px;
+				background:rgb(90, 87, 87);
+				margin: 40px auto;
+                max-width: 800px;
                 line-height: 1.6;
                 font-size: 18px;
-                color: #444;
-                padding: 0 10px
+                color: rgb(0, 0, 0);
+                padding: 0 10px;
             }
+			div {
+                background: rgb(255, 255, 255);
+                height: 100%;
+				padding: 30px;
+            }
+			a:link {
+					color: rgb(14, 14, 143);
+					background-color: transparent;
+					text-decoration: none;
+			}
+			a:visited {
+			color: rgb(31, 87, 9);
+			background-color: transparent;
+			text-decoration: none;
+			}
+
+			a:hover {
+			color: red;
+			background-color: transparent;
+			text-decoration: underline;
+			}
+
+			a:active {
+			color: rgb(100, 30, 41);
+			background-color: transparent;
+			text-decoration: underline;
+			}
+
             h1 {
                 line-height: 1.2;
 				font-style: oblique;
@@ -54,25 +84,41 @@
 		</script>
     </head>
     <body>
+		<div>
         <header>
 			<table class="tbl">
 				<tr>
-				  <td><h1>Agnimitra Dasgupta</h1>
+				  <td VALIGN=top><h1>Agnimitra Dasgupta</h1>
 					<aside>Ph.D. candidate & Provost's Fellow (2017-2019)
 						<br> University of Southern California. 
-						<br><a href="./CV_Spring22.pdf">CV</a> &nbsp;|&nbsp;
-						<a href="https://github.com/adasgupta94/"> Github </a> &nbsp;|&nbsp;
-						<a href="https://www.linkedin.com/in/agnimitra-dasgupta-8613b2100/"> LinkedIn </a>
+						<br><a href="./CV_Spring22.pdf" color="red!important">CV</a> &nbsp;|&nbsp;
+						<a href="https://github.com/adasgupta94/"><i class="fa fa-github" style="font-size:24px"></i></a>
 						</br>
 					</aside>
 				</td>
-				<td><img src="./circular_website.jpg" width="150" height="150">
+				<td VALIGN=center><img src="./edit_me.jpg" width="300" height="196">
 				</td>
 				</tr>
 			  </table>
         </header>
 
-		<h3 class="top-two">
+		<p>
+			Social: 
+			&nbsp;
+			<a href="mailto:myemailaddress@gmail.com"> <i class="fa fa-envelope"></i></a>
+			&nbsp; <a href="https://www.linkedin.com/in/agnimitra-dasgupta-8613b2100/"><i class='fa fa-linkedin' style="font-size:24px"></i></a> &nbsp; <a href="https://twitter.com/agni_roni"><i class='fa fa-twitter' style="font-size:20px"></i></a>
+		</p>
+		<p>
+			Jump to:  <a href="#Interests">Interests</a>, 
+			<a href="#Experience">Experience</a>,
+			<a href="#Talks">Talks</a>,
+			<a href="#Publications">Publications</a>, 
+			<a href="#Conferences">Conferences</a>,
+			<a href="#Teaching">Teaching</a>, <a href="#Mentoring">Mentoring</a>, <a href="#Education">Education</a>,
+			<a href="#Awards">Awards</a>
+		</p>
+
+		<h3 class="top-two" id="Interests">
             <strong>Research Interests</strong>
 		</h3>
 		<p>Uncertainty quantification, 
@@ -82,7 +128,7 @@
         </p>	
 
 
-		<h3 class="top-two">
+		<h3 class="top-two" id="Experience">
             <strong>Research Experience</strong>
 		</h3>
 		<p>
@@ -139,7 +185,7 @@
 			</table>
         </p>
 
-		<h3 class="top-two">
+		<h3 class="top-two" id="Talks">
             Talks
 		</h3>
 		<p>
@@ -154,7 +200,7 @@
 			</table>
 		</p>
 
-		<h3 class="top-two">
+		<h3 class="top-two" id="Publications">
             Publications
 		</h3>
 		<p>
@@ -201,7 +247,7 @@
 		</p>
 
 
-		<h3 class="top-two">
+		<h3 class="top-two" id="Conferences">
             Conferences (with reviewed papers)
 		</h3>
 		<p>
@@ -314,7 +360,7 @@
 			</table>
 		</p>
 		
-		<h3 class="top-two">
+		<h3 class="top-two"  id="Teaching">
             <strong>Teaching Experience</strong>
 		</h3>
 		<p>
@@ -333,7 +379,7 @@
 			</table>
         </p>
 
-		<h3 class="top-two">
+		<h3 class="top-two"  id="Mentoring">
             <strong>Mentoring Experience</strong>
 		</h3>
 		<p>
@@ -379,7 +425,7 @@
 		</p>-->
 
 		<!--<h2>Seriously, it takes minimal fucking effort to improve this shit.</h2>-->
-        <h3 class="top-two">
+        <h3 class="top-two"  id="Education">
             <strong>Education</strong>
 		</h3>
         <p>
@@ -411,28 +457,17 @@
 			  </table>
         </p>
 
-		<h3 class="top-two">
+		<h3 class="top-two"  id="Awards">
             <strong>Honors & Awards (selected)</strong>
 		</h3>
 		<p>
-			<div>
-				SIAM Student Travel Award for attending SIAM UQ 2022 courtesy of NSF. 
-			</div>	
-			<div>
-				Provost's Ph.D. Fellowship, University of Southern California, 2017-2019.
-			</div>
-			<div>
-				Prof. N S Lakshmana Rao Medal, Civil Engineering, IISc, 2018.
-			</div>
-			<div>
-				2-year scholarship for graduate study, MHRD, India, 2015-2017.
-			</div>
-			<div>
-				Gold Medalist (and other awards), Jadavpur University, 2015.
-			</div>
-			<div>
+			
+				SIAM Student Travel Award for attending SIAM UQ 2022 courtesy of NSF. <br>
+				Provost's Ph.D. Fellowship, University of Southern California, 2017-2019. <br>
+				Prof. N S Lakshmana Rao Medal, Civil Engineering, IISc, 2018. <br>
+				2-year scholarship for graduate study, MHRD, India, 2015-2017. <br>
+				Gold Medalist (and other awards), Jadavpur University, 2015. <br>
 				Silver Medal from N.C.E. Bengal, India, 2014.
-			</div>
 		</p>
 
 
@@ -459,6 +494,6 @@
             </li>
         </ul>-->
         <!--<hr> this line is for a thin horizontal line-->
-
+	</div>
     </body>
 </html>
